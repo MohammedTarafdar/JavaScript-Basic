@@ -48,9 +48,19 @@ console.log(studentArray);
 
 
 console.log(studentArray.slice(0, 3));      // To returns a shallow copy of your array 
-
-
 console.log(studentArray);
+
+
+
+// for test
+
+var newArray = [3, 5, 7];
+
+newArray[1] = 9;
+console.log(newArray);
+console.log(newArray.indexOf(0));
+
+
 
 
 
